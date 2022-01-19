@@ -24,6 +24,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 300px;
   height: 100vh;
   border-radius: 15px;
@@ -90,7 +91,7 @@ width: 300px;
   height: 25px;
   margin: 20px 25px 20px 0;
   border-radius: 50%;
-  border: white 2px solid;
+  border: white 1px solid;
 }
 .authorname {
   color: var(--white);
