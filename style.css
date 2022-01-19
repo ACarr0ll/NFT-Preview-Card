@@ -30,9 +30,10 @@ body {
   border-radius: 15px;
 }
 
-.nftpic img {
+.nftpic img{
+  background-color: var(--primary-cyan);
   width: 250px;
-  height: auto;
+  height: 250px;
   margin: 20px 25px 15px 25px;
   border-radius: 15px;
 }
@@ -101,4 +102,19 @@ width: 300px;
 .attribution {
   display: flex
 }
+
+.authorname:hover, .nftname:hover{
+  cursor: pointer;
+  color: var(--primary-cyan);
+}
+
+.nftpic:hover {
+  cursor: pointer;
+  opacity: .1; 
+
+}
+
+
+
+
 
