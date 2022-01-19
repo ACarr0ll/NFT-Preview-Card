@@ -32,8 +32,8 @@ body {
 
 .nftpic img {
   width: 250px;
-  height: 250px;
-  margin: 25px;
+  height: auto;
+  margin: 20px 25px 15px 25px;
   border-radius: 15px;
 }
 
@@ -44,7 +44,7 @@ width: 300px;
 }
 
 .nftname {
-  margin-left: 20px;
+  margin-left: 25px;
   font-weight: 600;
 }
 
